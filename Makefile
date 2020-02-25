@@ -16,7 +16,7 @@ OBFILES = $(patsubst %.c,%.o,$(CSFILES))
 CFLAGS  = -I$(INCLUDE)
 LDFLAGS = -pthread -lz
 
-.PHONY: all $(TARGET) clean install uninstall
+.PHONY: all $(TARGET) clean install uninstall reinstall
 
 all: $(TARGET)
 
@@ -31,3 +31,5 @@ install:
 
 uninstall:
 	@cd $(TOOLS) && ./uninstall.sh
+
+reinstall: uninstall install
