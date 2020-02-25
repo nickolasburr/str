@@ -14,7 +14,7 @@ CSFILES = $(wildcard $(SOURCES)/*.c)
 OBFILES = $(patsubst %.c,%.o,$(CSFILES))
 
 CFLAGS  = -I$(INCLUDE)
-LDFLAGS = -pthread -lz
+LDFLAGS = -pthread -lmagic -lz
 
 .PHONY: all $(TARGET) clean install uninstall
 
