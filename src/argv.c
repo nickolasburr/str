@@ -17,6 +17,11 @@ static option_t options[] = {
 		"Show version number.",
 	},
 	{
+		"--quiet",
+		"-q",
+		"Suppress filename output.",
+	},
+	{
 		"--extension",
 		"-e",
 		"Set file extension.",
@@ -29,10 +34,10 @@ static option_t options[] = {
 void usage (void) {
 	int index;
 
-	fprintf(stdout, "Usage: frn [OPTIONS] [FILE]\n\n");
+	fprintf(stdout, "Usage: %s [OPTIONS]\n\n", EXECNAME);
 	fprintf(stdout, "OPTIONS:\n\n");
 
-	for (index = 0; index < NUM_OPTIONS; index += 1) {
+	for (index = 0; index < NUM_OPTS; index += 1) {
 		option_t *option = &options[index];
 
 		fprintf(stdout, "%4s%s, %s: %-24s\n", "", option->alias, option->value, option->desc);
