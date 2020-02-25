@@ -13,6 +13,5 @@
 #include "mem.h"
 #include "rand.h"
 #include "utils.h"
-#include <magic.h>
 
 #endif /* FRN_MAIN_H */
