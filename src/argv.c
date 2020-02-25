@@ -19,7 +19,7 @@ static option_t options[] = {
 	{
 		"--extension",
 		"-e",
-		"Set file extension. Defaults to .txt file.",
+		"Set file extension.",
 	},
 };
 
