@@ -10,8 +10,8 @@
 #include "error.h"
 #include "utils.h"
 
-#define NUM_OPTIONS 3
-#define OPT_DELIMIT "--"
+#define NUM_OPTS 4
+#define OPT_ARGS "hvqe:"
 
 typedef struct {
 	char *value;
@@ -19,7 +19,7 @@ typedef struct {
 	char *desc;
 } option_t;
 
-static option_t options[NUM_OPTIONS];
+static option_t options[NUM_OPTS];
 void usage(void);
 
 #endif /* FRN_ARGV_H */
