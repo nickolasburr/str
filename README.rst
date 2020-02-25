@@ -8,7 +8,7 @@ Description
 Options
 -------
 
-    -e, --extension type  Set file extension.
+    -e, --extension TYPE  Set file extension.
     -h, --help            Show help information.
     -v, --version         Show version number.
 
