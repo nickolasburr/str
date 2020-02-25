@@ -1,5 +1,3 @@
-File rename utility.
-
 .. contents:: :local:
 
 Description
