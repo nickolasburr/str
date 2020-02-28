@@ -8,9 +8,10 @@ Description
 Options
 -------
 
-    -e TYPE, --extension TYPE  [Required] Set file extension.
-    -h, --help                 Show help information.
-    -v, --version              Show version number.
+    --extension TYPE  [Required] Set file extension.
+    -e TYPE           Shorthand alias for --extension.
+    -h, --help        Show help information.
+    -v, --version     Show version number.
 
 Examples
 --------
@@ -19,7 +20,7 @@ Send piped HTML input to .html file.
 
 .. code-block:: sh
 
-    echo "<!doctype html><html></html>" | frn -e html -
+    echo '<!doctype html><html></html>' | frn -e html -
 
 Send Makefile input to .txt file.
 
