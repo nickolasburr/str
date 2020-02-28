@@ -8,10 +8,42 @@ Description
 Options
 -------
 
-    --extension TYPE     [Required] Set file extension.
-    -e TYPE              Shorthand alias for --extension.
-    -h, --help           Show help information.
-    -v, --version        Show version number.
+..
+    This table is embedded because GitHub completely botches
+    the table formatting for CLI options.
+
+.. raw:: html
+
+    <blockquote>
+        <table frame="void" rules="none">
+            <tbody valign="top">
+                <tr>
+                    <td>
+                        <kbd>
+                            <span>-e, --extension <var>TYPE</var></span>
+                        </kbd>
+                    </td>
+                    <td>[Required] Set file extension.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>
+                            <span>-h</span>, <span>--help</span>
+                        </kbd>
+                    </td>
+                    <td>Show help information.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>
+                            <span>-v</span>, <span>--version</span>
+                        </kbd>
+                    </td>
+                    <td>Show version number.</td>
+                </tr>
+            </tbody>
+        </table>
+    </blockquote>
 
 Examples
 --------
