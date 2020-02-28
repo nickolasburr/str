@@ -8,9 +8,9 @@ Description
 Options
 -------
 
-    -e, --extension TYPE  [Required] Set file extension.
-    -h, --help            Show help information.
-    -v, --version         Show version number.
+    -e TYPE, --extension TYPE  [Required] Set file extension.
+    -h, --help                 Show help information.
+    -v, --version              Show version number.
 
 Examples
 --------
