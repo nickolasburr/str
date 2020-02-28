@@ -8,10 +8,10 @@ Description
 Options
 -------
 
-    --extension TYPE  [Required] Set file extension.
-    -e TYPE           Shorthand alias for --extension.
-    -h, --help        Show help information.
-    -v, --version     Show version number.
+    --extension TYPE     [Required] Set file extension.
+    -e TYPE              Shorthand alias for --extension.
+    -h, --help           Show help information.
+    -v, --version        Show version number.
 
 Examples
 --------
