@@ -28,6 +28,14 @@ Options
                 <tr>
                     <td>
                         <kbd>
+                            <span>-q</span>, <span>--quiet</span>
+                        </kbd>
+                    </td>
+                    <td>Suppress filename output.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <kbd>
                             <span>-h</span>, <span>--help</span>
                         </kbd>
                     </td>
