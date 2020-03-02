@@ -2,13 +2,16 @@
 
 set -ex
 
-PROJDIR="$(dirname $PWD)"
-TARGET="frn"
+TARGET="$1"
+PRJDIR="$(dirname $PWD)"
 
-if test -f "$PROJDIR/$TARGET"; then
-	rm -rf "$PROJDIR/$TARGET"
+RM="rm"
+RMFLAGS="-rf"
+
+if test -f "$PRJDIR/$TARGET"; then
+	$RM $RMFLAGS "$PRJDIR/$TARGET"
 fi
 
-if test -d "$PROJDIR/$TARGET.dSYM"; then
-	rm -rf "$PROJDIR/$TARGET.dSYM"
+if test -d "$PRJDIR/$TARGET.dSYM"; then
+	$RM $RMFLAGS "$PRJDIR/$TARGET.dSYM"
 fi
