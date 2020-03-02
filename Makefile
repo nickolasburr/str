@@ -3,7 +3,7 @@
 ###
 
 CC      = gcc
-TARGET  = frn
+TARGET  = str
 INSTALL = /usr/bin/install -c
 
 INCLUDE = include
