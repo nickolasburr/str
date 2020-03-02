@@ -3,9 +3,9 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_ERROR_H
-#define FRN_ERROR_H
+#ifndef STR_ERROR_H
+#define STR_ERROR_H
 
 int is_error(int, int);
 
-#endif /* FRN_ERROR_H */
+#endif /* STR_ERROR_H */

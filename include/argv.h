@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_ARGV_H
-#define FRN_ARGV_H
+#ifndef STR_ARGV_H
+#define STR_ARGV_H
 
 #include "common.h"
 #include "error.h"
@@ -22,4 +22,4 @@ typedef struct {
 static option_t options[NUM_OPTS];
 void usage(void);
 
-#endif /* FRN_ARGV_H */
+#endif /* STR_ARGV_H */

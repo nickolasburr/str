@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_COMMON_H
-#define FRN_COMMON_H
+#ifndef STR_COMMON_H
+#define STR_COMMON_H
 
 #include <ctype.h>
 #include <errno.h>
@@ -28,4 +28,4 @@
 #define EXECNAME "frn"
 #define EXECVERS "1.0.0"
 
-#endif /* FRN_COMMON_H */
+#endif /* STR_COMMON_H */

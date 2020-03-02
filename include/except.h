@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_EXCEPT_H
-#define FRN_EXCEPT_H
+#ifndef STR_EXCEPT_H
+#define STR_EXCEPT_H
 
 #include <setjmp.h>
 
@@ -70,4 +70,4 @@ void Except_raise(const T *e, const char *file, int line);
 
 #undef T
 
-#endif /* FRN_EXCEPT_H */
+#endif /* STR_EXCEPT_H */

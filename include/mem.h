@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_MEM_H
-#define FRN_MEM_H
+#ifndef STR_MEM_H
+#define STR_MEM_H
 
 #include "common.h"
 #include "assert.h"
@@ -24,4 +24,4 @@ extern void *Mem_resize(void *ptr, long nbytes, const char *file, int line);
 #define FREE(ptr)             ((void)(Mem_free((ptr), __FILE__, __LINE__), (ptr) = 0))
 #define RESIZE(ptr, nbytes)   ((ptr) = Mem_resize((ptr), (nbytes), __FILE__, __LINE__))
 
-#endif /* FRN_MEM_H */
+#endif /* STR_MEM_H */
