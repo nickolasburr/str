@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_RAND_H
-#define FRN_RAND_H
+#ifndef STR_RAND_H
+#define STR_RAND_H
 
 #include "common.h"
 #include "mem.h"
@@ -14,4 +14,4 @@
 
 char *randstr(size_t);
 
-#endif /* FRN_RAND_H */
+#endif /* STR_RAND_H */

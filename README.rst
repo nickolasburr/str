@@ -3,7 +3,7 @@
 Description
 -----------
 
-``frn`` is a utility for streaming input to an auto-generated file.
+``str`` is a utility for streaming input to an auto-generated file.
 
 Options
 -------
@@ -52,13 +52,13 @@ Send piped HTML input to .html file.
 
 .. code-block:: sh
 
-    echo '<!doctype html><html></html>' | frn -e html -
+    echo '<!doctype html><html></html>' | str -e html -
 
 Send Makefile input to .txt file.
 
 .. code-block:: sh
 
-    frn -e txt < Makefile
+    str -e txt < Makefile
 
 See Also
 --------

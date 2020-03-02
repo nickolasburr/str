@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_UTILS_H
-#define FRN_UTILS_H
+#ifndef STR_UTILS_H
+#define STR_UTILS_H
 
 #include <dirent.h>
 #include <sys/stat.h>
@@ -49,4 +49,4 @@ int is_char(const char *);
 int is_digit(int);
 int is_numeric(char *);
 
-#endif /* FRN_UTILS_H */
+#endif /* STR_UTILS_H */

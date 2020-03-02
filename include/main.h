@@ -3,8 +3,8 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
-#ifndef FRN_MAIN_H
-#define FRN_MAIN_H
+#ifndef STR_MAIN_H
+#define STR_MAIN_H
 
 #include "common.h"
 #include "assert.h"
@@ -14,4 +14,4 @@
 #include "rand.h"
 #include "utils.h"
 
-#endif /* FRN_MAIN_H */
+#endif /* STR_MAIN_H */

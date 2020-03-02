@@ -3,7 +3,7 @@
 ###
 
 CC      = gcc
-TARGET  = frn
+TARGET  = str
 INSTALL = /usr/bin/install -c
 
 INCLUDE = include
@@ -24,12 +24,12 @@ $(TARGET): $(CSFILES)
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
 clean:
-	@cd $(TOOLS) && ./clean.sh
+	@cd $(TOOLS) && ./clean.sh $(TARGET)
 
 install:
-	@cd $(TOOLS) && ./install.sh
+	@cd $(TOOLS) && ./install.sh $(TARGET)
 
 uninstall:
-	@cd $(TOOLS) && ./uninstall.sh
+	@cd $(TOOLS) && ./uninstall.sh $(TARGET)
 
 reinstall: uninstall install
