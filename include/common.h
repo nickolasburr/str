@@ -25,7 +25,7 @@
 #define is_null(ptr) ((ptr) == ((void *) 0))
 #define NULL_BYTE 1
 
-#define EXECNAME "frn"
+#define EXECNAME "str"
 #define EXECVERS "1.0.0"
 
 #endif /* STR_COMMON_H */
