@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
+
 #ifndef STR_MAIN_H
 #define STR_MAIN_H
 

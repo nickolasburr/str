@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
+
 #include "argv.h"
 
 static option_t options[] = {
@@ -34,12 +35,22 @@ static option_t options[] = {
 void usage (void) {
 	int index;
 
-	fprintf(stdout, "Usage: %s [OPTIONS]\n\n", EXECNAME);
-	fprintf(stdout, "OPTIONS:\n\n");
+	fprintf(
+		stdout,
+		"Usage: %s [OPTIONS]\n\nOPTIONS:\n\n",
+		EXECNAME
+	);
 
 	for (index = 0; index < NUM_OPTS; index += 1) {
 		option_t *option = &options[index];
 
-		fprintf(stdout, "%4s%s, %s: %-24s\n", "", option->alias, option->value, option->desc);
+		fprintf(
+			stdout,
+			"%4s%s, %s: %-24s\n",
+			"",
+			option->alias,
+			option->value,
+			option->desc
+		);
 	}
 }

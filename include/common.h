@@ -3,6 +3,7 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
+
 #ifndef STR_COMMON_H
 #define STR_COMMON_H
 
