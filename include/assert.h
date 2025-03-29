@@ -3,6 +3,10 @@
  *
  * Copyright (C) 2020 Nickolas Burr <nickolasburr@gmail.com>
  */
+
+#ifndef STR_ASSERT_H
+#define STR_ASSERT_H
+
 #undef assert
 
 #ifdef NDEBUG
@@ -12,3 +16,5 @@
 extern void assert(int e);
 #define assert(e) ((void)((e)||(RAISE(Assert_Failed),0)))
 #endif
+
+#endif /* STR_ASSERT_H */
